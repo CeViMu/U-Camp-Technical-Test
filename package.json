@@ -1,0 +1,22 @@
+{
+  "name": "u-camp-technical-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeViMu/U-Camp-Technical-Test.git"
+  },
+  "author": "Cecilia Muño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeViMu/U-Camp-Technical-Test/issues"
+  },
+  "homepage": "https://github.com/CeViMu/U-Camp-Technical-Test#readme",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
+}
