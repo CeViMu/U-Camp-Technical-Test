@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js"
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/CeViMu/U-Camp-Technical-Test#readme",
   "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
     "jest": "^26.0.0"
   }
 }
