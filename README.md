@@ -12,7 +12,7 @@ Documentación: https://eslint.org/docs/rules/
 
 3) Se agregan pruebas automatizadas de Github Actions
 - Creamos un arhivo .github/workflows/test.yml y copiamos el siguiente contenido
-´´´
+```
 name: Run Tests in my project every push on GitHub
 
 on: [push]
@@ -24,5 +24,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run Jest
       uses: stefanoeb/jest-action@1.0.3
-´´´
--Hacemos commit de este archivo y lo agregamos al repositorio.
+```
+- Hacemos commit de este archivo y lo agregamos al repositorio.
